@@ -5,10 +5,10 @@ const Navbr = () => {
     <div className='text-gray-400 mx-auto mx-w-[1240px] flex '>
         <h1 className='w-full p-4 text-2xl hover:text-[#00df9a] font-semibold border-b border-b-green-500'>Sudhanshu Sathawane</h1>
         <ul className='flex'>
-            <li className='p-4' >Github</li>
-            <li className='p-4'>Linkedin</li>
-            <li className='p-4'>Leetcode</li>
-            <li className='p-4'>Codeforces</li>
+            <li className='p-4'><a href="https://github.com/Sudhanshu10Sathawane" target="_blank">Github</a></li>
+            <li className='p-4'><a href="https://www.linkedin.com/in/sudhanshu-sathawane/" target="_blank">Linkedin</a></li>
+            <li className='p-4'><a href="https://leetcode.com/furious10/" target="_blank">Leetcode</a></li>
+            <li className='p-4'><a href="https://codeforces.com/profile/furious10" target="_blank">Codeforces</a></li>
         </ul>
         {/* <div>
             <AiOutlineMenu size={60} className='p-4' />
